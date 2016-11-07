@@ -3,12 +3,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/basic1_1"
+    android:background="@drawable/basic1_4"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="id.sch.smktelkom_mlg.learn.project1.AndroidB1_1">
+    tools:context="id.sch.smktelkom_mlg.learn.project1.AndroidB1_4">
 
     <Button
         android:id="@+id/buttonA"
@@ -19,7 +19,7 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentStart="true"
         android:layout_centerVertical="true"
-        android:text="sistem operasi pada desktop" />
+        android:text="/assets" />
 
     <Button
         android:id="@+id/buttonB"
@@ -30,7 +30,7 @@
         android:layout_alignParentStart="true"
         android:layout_alignRight="@+id/buttonA"
         android:layout_below="@+id/buttonA"
-        android:text="bahasa pemrograman" />
+        android:text="/src" />
 
     <Button
         android:id="@+id/buttonC"
@@ -41,7 +41,7 @@
         android:layout_alignParentStart="true"
         android:layout_alignRight="@+id/buttonB"
         android:layout_below="@+id/buttonB"
-        android:text="sistem operasi pada mobile" />
+        android:text="/res/values" />
 
     <Button
         android:id="@+id/buttonD"
@@ -52,7 +52,7 @@
         android:layout_alignParentStart="true"
         android:layout_alignRight="@+id/buttonC"
         android:layout_below="@+id/buttonC"
-        android:text="database" />
+        android:text="/res/layout" />
 
     <ImageView
         android:id="@+id/imageView"
