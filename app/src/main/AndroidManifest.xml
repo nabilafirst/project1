@@ -30,6 +30,7 @@
         <activity android:name=".Desktop_home" />
         <activity android:name=".Web_home" />
         <activity android:name=".Java_home" />
+        <activity android:name=".AndroidB1_1"></activity>
     </application>
 
 </manifest>
