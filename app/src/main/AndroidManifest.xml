@@ -34,7 +34,12 @@
         <activity android:name=".AndroidB1_2" />
         <activity android:name=".AndroidB1_3" />
         <activity android:name=".AndroidB1_4" />
-        <activity android:name=".AndroidB1_5"></activity>
+        <activity android:name=".AndroidB1_5" />
+        <activity android:name=".WebB1_1" />
+        <activity android:name=".WebB1_2" />
+        <activity android:name=".WebB1_3" />
+        <activity android:name=".WebB1_4" />
+        <activity android:name=".WebB1_5"></activity>
     </application>
 
 </manifest>
