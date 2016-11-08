@@ -22,6 +22,16 @@ public class Web_home extends Activity {
 
             }
         });
+
+        findViewById(R.id.imageViewBasic2).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Web_home.this, WebB2_1.class);
+                startActivity(intent);
+
+            }
+        });
+
     }
 
 }
