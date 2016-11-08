@@ -32,6 +32,15 @@ public class Web_home extends Activity {
             }
         });
 
+        findViewById(R.id.imageViewBasic3).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Web_home.this, WebB3_1.class);
+                startActivity(intent);
+
+            }
+        });
+
     }
 
 }
